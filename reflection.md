@@ -7,6 +7,19 @@
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
 
+A user should be able to perform three core actions in the app:
+
+- Add or edit pet care tasks, including details like task name, duration, and priority.
+- Enter owner and pet information such as owner name, pet name, and species.
+- Generate and view a daily care schedule for today, showing which tasks should happen and when.
+
+The main objects for the system are:
+
+- `Owner`: holds owner name and preferences; can provide availability and preference data.
+- `Pet`: holds pet name, species, and basic pet info; can describe pet needs and context.
+- `Task`: holds a task title, duration, priority, and optional notes; can determine whether it is a high-priority or time-sensitive task.
+- `Scheduler` or `Plan`: holds a list of tasks and scheduling constraints; can generate a daily plan, order tasks, and explain the reasoning behind the chosen schedule.
+
 **b. Design changes**
 
 - Did your design change during implementation?
