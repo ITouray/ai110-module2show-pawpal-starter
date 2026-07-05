@@ -1,0 +1,57 @@
+{
+  "name": "Jordan",
+  "available_minutes": 20,
+  "preferences": [],
+  "pet": {
+    "name": "glen",
+    "species": "dog",
+    "age": 3,
+    "special_needs": ""
+  },
+  "tasks": [
+    {
+      "name": "Morning walk",
+      "duration_minutes": 20,
+      "priority": 5,
+      "category": "exercise",
+      "time": "",
+      "pet_name": "",
+      "frequency": "once",
+      "due_date": null,
+      "completed": false
+    },
+    {
+      "name": "Morning walk",
+      "duration_minutes": 15,
+      "priority": 3,
+      "category": "exercise",
+      "time": "",
+      "pet_name": "",
+      "frequency": "once",
+      "due_date": null,
+      "completed": false
+    },
+    {
+      "name": "Morning run",
+      "duration_minutes": 20,
+      "priority": 5,
+      "category": "exercise",
+      "time": "",
+      "pet_name": "",
+      "frequency": "once",
+      "due_date": null,
+      "completed": false
+    },
+    {
+      "name": "breakfast",
+      "duration_minutes": 10,
+      "priority": 5,
+      "category": "feeding",
+      "time": "",
+      "pet_name": "",
+      "frequency": "once",
+      "due_date": null,
+      "completed": false
+    }
+  ]
+}
